@@ -13,10 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
+use std::i32;
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(order: i32) -> i32 {
+    if order > 40 {
+        order
+    } else {
+        2 * order
+    }
+}
 
 // Don't modify this function!
 #[test]
