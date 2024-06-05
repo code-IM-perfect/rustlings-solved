@@ -1,0 +1,12 @@
+body {
+	background: #202020;
+	color: white;
+	text-align: center;
+	height: 95vh;
+	display: grid;
+	place-items: center;
+}
+
+div {
+	max-width: 70vw;
+}
